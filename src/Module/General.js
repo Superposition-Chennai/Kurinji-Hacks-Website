@@ -29,14 +29,14 @@ import zoha from "./Assets/teami/zoha.png";
  * or you can provide a cloud link in src also
  */
 
-import boy from "./Assets/boy.png";
+import logo from "./Assets/logo new 1.png";
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  TITLE: "Kurinji Hacks",
+  Typed_effect: ["48 hours of creation", "Win awesome prizes", "Learn new skills", "Meet amazing people"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
-  IMG_SRC: boy,
+    "The official hackathon of Superposition Chennai for women and non-binary folks across the globe filled with creation, innovation, & fun.",
+  IMG_SRC: logo,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
@@ -49,17 +49,17 @@ const SOCIALS = {
   discord: "https://discord.com/invite/8XJSzmtWPp",
   linkedin: "https://www.linkedin.com/company/limbo-hacks/",
   twitter: "https://twitter.com/HacksLimbo",
-  devpost: "https://limbo-hacks-12968.devpost.com/",
-  email: "mailto:hello@limbohacks.tech",
-  mail: "hello@limbohacks.tech"
+  devpost: "https://kurinji-hacks.devpost.com/",
+  email: "mailto:ch.chennai@superposition.tech",
+  mail: "ch.chennai@superposition.tech"
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Limbo hacks?",
+  TITLE: "What is Kurinji Hacks?",
   LONG_DESCRIPTION:
-    "Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Kurinji Hacks is a virtually conducted hackathon by Superposition Chennai open for all girls and non-binary individuals around the globe. The event aims to encourage female and non-binary individuals to delve into the exhilarating world of CS for social good and marvel at a generation of future-minded geniuses, providing them with a platform to express their creativity and skill. Our unique structure of hackathon allows Computer Science students at different levels to participate as we provide beginner and advance.",
   LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO: "./Assets/Kurinji-Hacks logo.png"
 };
 
 const FOOTER = {
@@ -97,54 +97,77 @@ const Prizeinfo = [
   [
     //Array 1
     {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      icon: <i class="sixth fas fa-3x fa-trophy"></i>,
+      type: "Best Overall Hack (10)",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
+        "Each team member of the top 10 teams will win a year of Wolfram | One Personal Edition plus a one-year subscription to Wolfram | Alpha Pro."
     },
     {
-      icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
+      icon: <i class=" third fas fa-3x fa-female"></i>,
+      type: "Best Gender-Equity Hack",
       content:
-        "Second Overall prize will be given to the second best project of the hackathon"
+        "Recognizes a team that creates an innovative and inclusive solution to tackle a specific goal, with the focus on Female Empowerment & Gender-Equity."
     },
     {
-      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
+      icon: <i class=" fifth fas fa-3x fa-book"></i>,
+      type: "Best Ed-tech Hack",
       content:
-        "Best third overall project of the hackathon will win some awesome prizes"
+        "Recognizes a team that develops a tool that aids online education and connects students together."
     }
   ],
   [
     //Array 2
     {
-      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
+      icon: <i class="fas sixth fa-3x fa-brain"></i>,
+      type: "Best Mental Health Hack",
       content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+        "Recognizes a team that creates an innovative solution with the focus on mental wellbeing and health."
     },
     {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
+      icon: <i class="third fas fa-3x fa-child"></i>,
+      type: "Best Beginner Hack",
+      content: "Your project will qualify for this category if atleast 50% of your team has first-time hackers "
     },
     {
-      icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
+      icon: <i class=" fifth fa-3x fas fa-palette"></i>,
+      type: "Prettiest Hack",
+      content: "Recognizes the team which creates an accessible interface with a visually appealing flow, has conducted visible UX research, and built an interactive design."
     }
   ],
   [
     //Array 3
     {
-      icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
+      icon: <i class="fas fa-vr-cardboard sixth fa-3x "></i>,
+      type: "Best AR/VR Hack",
+      content: "For this challenge, Build the best AR/VR application using the echoAR platform! The only rule is that you must use the echoAR platform."
     },
     {
-      icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later"
+      icon: <i class="fas fa-leaf third fa-3x "></i>,
+      type: "Best Sustainability Hack",
+      content: "Recognizes a team that creates the best hack for environment and health, with a focus on sustainability and future."
+    },
+    {
+      icon: <i class="far fa-laugh-beam fifth fa-3x "></i>,
+      type: "Best Recreation Hack",
+      content: "Recognizes the team that creates the funniest and most entertaining hack!"
+    }
+  ],
+  [
+    //Array 3
+    {
+      icon: <i class="fas fa-school sixth fa-3x "></i>,
+      type: "Best High School Hack",
+      content: "Recognizes the best hack created by a team consisting of all high school students."
+    },
+    {
+      icon: <i class="fas fa-laptop-code third fa-3x "></i>,
+      type: "Best AI Hack",
+      content: "Recognizes a team that creates the best hack that uses AI in the best way."
+    },
+    {
+      icon: <i class="fab fa-accessible-icon fifth fa-3x "></i>,
+      type: "Best Accessibility Hack",
+      content: "Recognizes the hackathon project that enables accessibility the most innovatively."
     }
   ]
 ];
@@ -221,10 +244,10 @@ const frequentlyAskedQuestions  = [
       {
         label: "What is a hackathon?",
         content:
-        'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
+        'A hackathon is a 48 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'      },
       {
         label: "Who can attend?",
-        content: "Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools."
+        content: "Kurinji Hacks is open to all women and non-binary undergraduate and high school students from all schools."
       },
       {
         label: "I am a first time hacker, what should I do?",
@@ -242,17 +265,17 @@ const frequentlyAskedQuestions  = [
       },
       {
         label: "I have more questions?",
-        content: "Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you."
+        content: "Reach us directly at (ch.chennai@superposition.tech) we would happy to help you."
       }
       ,
       {
-        label: "Can i volunteer?",
+        label: "Can I volunteer?",
         content: "Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you."
       }
       ,
       {
         label: "Will there be swag?",
-        content: "Yes! Participants will recieveing Limbo Hacks swag!."
+        content: "Yes! Participants will recieveing Kurinji Hacks swag!."
       }
     ]
   ],

@@ -15,14 +15,14 @@ button {
   border-radius: 19px;
   font-size: 2rem;
   color: rgb(255, 255, 255);
-  background-color: #6A63B7;
+  background-color: #550269;
   font-weight: 300;
   position: relative;
 }
 
 .join_disco {
   width: 25rem;
-  background: linear-gradient(90deg, #9796F0 0%, #FBC7D4 100%);
+  background: linear-gradient(60deg, #550269 , #d8c1e6 );
 }
 
 .join_disco i {
@@ -77,7 +77,7 @@ p {
 
 .overlay-text {
   font-weight: 300;
-  color: #2C4677;
+  color: #550269;
   font-size: 17px;
   position: absolute;
   top: 50%;

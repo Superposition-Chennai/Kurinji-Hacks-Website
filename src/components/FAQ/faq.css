@@ -5,7 +5,7 @@
   position: relative;
 }
 .panel {
-  background-color: #c8ccf4;
+  background-color: #f0d6a0;
   border-radius: 12px;
 margin-top: 10px;
 }
@@ -15,7 +15,7 @@ margin-top: 10px;
   background: none;
   border: none;
   text-align: left;
-  padding: 27px 65px 27px 30px;
+  padding: 15px 65px 27px 30px;
   font-weight: 400;
   font-size: 18px;
   font-family: inherit;
@@ -35,7 +35,7 @@ margin-top: 10px;
   width: 22px;
   height: 2px;
   margin-top: -2px;
-  background-color: #372717;
+  background-color: #000000;
 }
 .panel__label:before {
   transform: rotate(-90deg);
@@ -45,7 +45,7 @@ margin-top: 10px;
   opacity: 1;
 }
 .panel[aria-expanded="true"] .panel__label {
-  color: #41403f;
+  color: #000000;
 }
 .panel[aria-expanded="true"] .panel__label:before {
   transform: rotate(0deg);
@@ -58,8 +58,9 @@ margin-top: 10px;
 .panel__content {
   margin: 5px 25px 25px;
   font-size: 17px;
-  color: #494948;
+  color: #000000;
   opacity: 0;
+  text-align: left;
   transition: opacity 0.3s linear 0.18s;
 }
 .panel:not(:last-child) {
