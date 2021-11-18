@@ -126,7 +126,7 @@ export default function HomePage(props) {
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
-          <PrizeHeading type="Prize section" />
+          <PrizeHeading type="Prizes" />
           {Prizeinfo.map(PrizeGroup)}
         </Row>
         {/* ********Prizes ending here ***** */}

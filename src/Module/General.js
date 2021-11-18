@@ -1,16 +1,12 @@
 // Importing all sponsors logos from Assets
 import taskade from "./Assets/sponsorsLogos/taskade.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
-import qoom from "./Assets/sponsorsLogos/qoom.svg";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
+import echo3D from "./Assets/sponsorsLogos/echo3D.png";
+import jetbrains from "./Assets/sponsorsLogos/jetbrains.png";
+import raahee from "./Assets/sponsorsLogos/Raahee.png";
+import voiceflow from "./Assets/sponsorsLogos/voiceflow.png";
+import wolfram from "./Assets/sponsorsLogos/wolfram.png";
+import xyz from "./Assets/sponsorsLogos/xyz.png";
+import balsamiq from "./Assets/sponsorsLogos/balsamiq.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -22,7 +18,6 @@ import me from "./Assets/teami/me.png";
 import moon from "./Assets/teami/moon.png";
 import Ryah from "./Assets/teami/Ryah.jpg";
 import lyin from "./Assets/teami/lyin.jpg";
-import zoha from "./Assets/teami/zoha.png";
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -41,14 +36,14 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    "https://0foa3shisc7.typeform.com/to/CdJo3jXh/"
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.com/invite/8XJSzmtWPp",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
+  instagram: "https://www.instagram.com/superpositionchennai/",
+  discord: "https://discord.com/invite/5c4k3scjea/",
+  linkedin: "https://www.linkedin.com/company/superposition-chennai/",
+  twitter: "https://twitter.com/SuperPosChennai",
   devpost: "https://kurinji-hacks.devpost.com/",
   email: "mailto:ch.chennai@superposition.tech",
   mail: "ch.chennai@superposition.tech"
@@ -182,21 +177,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
+      Name: "Rakshaa Viswanathan",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: me
     },
     {
-      Name: "Moon",
+      Name: "Shrinidhi Mahesh",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: moon
     },
     {
-      Name: "Ryah Garcia",
+      Name: "Darshana V",
       role: "Organizer",
       github: "",
       linkedin: "",
@@ -206,19 +201,12 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: "Lyanola",
+      Name: "Hassaana",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: lyin
     },
-    {
-      Name: "Zoheb",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: zoha
-    },    
   ] 
 ];
 
@@ -229,10 +217,9 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
+  [{src: taskade}, {src: xyz}, {src: raahee}], //Array 2
+  [{src: jetbrains},{src: balsamiq}], //Array 3
 ];
 
 /** Instructions
