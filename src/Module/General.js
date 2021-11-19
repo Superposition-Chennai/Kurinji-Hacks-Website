@@ -7,6 +7,8 @@ import voiceflow from "./Assets/sponsorsLogos/voiceflow.png";
 import wolfram from "./Assets/sponsorsLogos/wolfram.png";
 import xyz from "./Assets/sponsorsLogos/xyz.png";
 import balsamiq from "./Assets/sponsorsLogos/balsamiq.png";
+import slingshot from "./Assets/sponsorsLogos/slingshot.png";
+import interviewcake from "./Assets/sponsorsLogos/interview-cake.jpg";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -36,7 +38,7 @@ const TOP_SECTION = {
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://0foa3shisc7.typeform.com/to/CdJo3jXh/"
+    "https://forms.gle/ZqArTs49RKK7f5rG6"
 };
 
 const SOCIALS = {
@@ -219,7 +221,8 @@ const TeamInfo = [
 const sponsorLogos = [
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
   [{src: taskade}, {src: xyz}, {src: raahee}], //Array 2
-  [{src: jetbrains},{src: balsamiq}], //Array 3
+  [{src: slingshot},{src: balsamiq},{src: interviewcake}], //Array 3
+  [{src: jetbrains}],
 ];
 
 /** Instructions
