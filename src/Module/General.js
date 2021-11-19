@@ -157,7 +157,7 @@ const Prizeinfo = [
       content: "Recognizes the best hack created by a team consisting of all high school students."
     },
     {
-      icon: <i class="fas fa-laptop-code third fa-3x "></i>,
+      icon: <i class="fas fa-robot third fa-3x "></i>,
       type: "Best AI Hack",
       content: "Recognizes a team that creates the best hack that uses AI in the best way."
     },
