@@ -54,7 +54,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Kurinji Hacks?",
   LONG_DESCRIPTION:
-    "Kurinji Hacks is a virtually conducted hackathon by Superposition Chennai open for all girls and non-binary individuals around the globe. The event aims to encourage female and non-binary individuals to delve into the exhilarating world of CS for social good and marvel at a generation of future-minded geniuses, providing them with a platform to express their creativity and skill. Our unique structure of hackathon allows Computer Science students at different levels to participate as we provide beginner and advance.",
+    "Kurinji Hacks is a hackathon aimed at high school and college girls and non-binary folks of all experience levels and backgrounds. It is organized by Superposition Chennai. Our team is passionate about offering attendees a safe, welcoming, and supportive environment to experiment with technology. Not only do we wish to promote creativity in the projects that the attendees will create, we also wish that the girls will be able to learn and have fun. Additionally, we want to generate a larger interest and help more girls and non-binary folks learn and thrive in technology related fields. This event is free and is organized digitally.",
   LOGO_EFFECT: true,
   LOGO: "./Assets/Kurinji-Hacks logo.png"
 };
