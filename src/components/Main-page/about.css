@@ -10,7 +10,7 @@
   background-size: auto 100vh;
 }
 .color_sectiom {
-  background-color: #8967AC;
+  background-color: #f8c8d7;
   padding-bottom: 5rem;
 }
 h1 {
@@ -23,7 +23,7 @@ h1 {
 
 .info {
   margin-top: 20vh;
-  color: white;
+  color: black;
 }
 
 .d-image img {
@@ -53,7 +53,7 @@ top: 10px;
   margin: 17vh 14vh 0 14vh;
   border-radius: 14px;
   margin-top: 4vh;
-  background-color: #f3effe;
+  background-color: #fdeff6;
 }
 .sponsorSection {
   padding: 17vh 18vh 0 18vh;

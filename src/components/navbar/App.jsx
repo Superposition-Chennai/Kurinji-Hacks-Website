@@ -14,13 +14,13 @@ import Devpost from "../Routes/Devpost";
 
 export default class NAVBAR extends React.Component {
   state = {
-    color: "#121930"
+    color: "#ff8ab3"
   };
   listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      this.setState({color: "#8967AC"});
+      this.setState({color: "#f5a2cb"});
     } else {
-      this.setState({color: "#121930"});
+      this.setState({color: "#ff8ab3"});
     }
   };
 

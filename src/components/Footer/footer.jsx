@@ -114,7 +114,7 @@ export default function Footer() {
           <p>Made with ❤️</p>
 
         </div>
-      {template &&<GithubTemplate/>}
+      {/* {template &&<GithubTemplate/>} */}
       </div>
     </div>
   );
