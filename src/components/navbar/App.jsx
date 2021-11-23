@@ -6,6 +6,11 @@ import HomePage from "../Main-page/HomePage";
 // import logo from "./logoo.png"
 import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
 
+import Discord from "../Routes/Discord";
+import Twitter from "../Routes/Twitter";
+import Linkedin from "../Routes/LinkedIn";
+import Instagram from "../Routes/Instagram";
+import Devpost from "../Routes/Devpost";
 
 export default class NAVBAR extends React.Component {
   state = {
@@ -48,6 +53,11 @@ export default class NAVBAR extends React.Component {
           </nav>
 
           <Switch basename="/Kurinji-Hacks-Website">
+            <Route path="/discord" exact component={Discord} />
+            <Route path="/linkedin" exact component={Linkedin} />
+            <Route path="/devpost" exact component={Devpost} />
+            <Route path="/twitter" exact component={Twitter} />
+            <Route path="/instagram" exact component={Instagram} />
             <Route path="/contact">
               <HomePage />
             </Route>
