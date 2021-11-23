@@ -91,7 +91,7 @@ export default function Footer() {
             </a>{" "}
           </p>
 
-          {FOOTER.Privacy_policy.required && (
+          {/* {FOOTER.Privacy_policy.required && (
             <a
               href={PrivacyPolicy}
               download
@@ -110,7 +110,7 @@ export default function Footer() {
             >
               <p>Terms of Use</p>
             </a>
-          )}
+          )} */}
           <p>Made with ❤️</p>
 
         </div>

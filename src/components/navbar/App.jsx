@@ -4,13 +4,8 @@ import "./styles.scss";
 // import TOGGLE from "../toggle-button/toggle";
 import HomePage from "../Main-page/HomePage";
 // import logo from "./logoo.png"
-import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
+import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
 
-import Discord from "../Routes/Discord";
-import Twitter from "../Routes/Twitter";
-import Linkedin from "../Routes/LinkedIn";
-import Instagram from "../Routes/Instagram";
-import Devpost from "../Routes/Devpost";
 
 export default class NAVBAR extends React.Component {
   state = {
@@ -18,7 +13,7 @@ export default class NAVBAR extends React.Component {
   };
   listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      this.setState({color: "#f5a2cb"});
+      this.setState({color: "#DBD2EA"});
     } else {
       this.setState({color: "#ff8ab3"});
     }
@@ -40,8 +35,8 @@ export default class NAVBAR extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to="/contact">
-                  <span className="links">Sponsors </span>{" "}
+                <Link to="/schedule">
+                  <span className="links">Schedule </span>{" "}
                 </Link>
               </li>
               <li>
@@ -52,12 +47,7 @@ export default class NAVBAR extends React.Component {
             </ul>
           </nav>
 
-          <Switch>
-            <Route path="/discord" exact component={Discord} />
-            <Route path="/linkedin" exact component={Linkedin} />
-            <Route path="/devpost" exact component={Devpost} />
-            <Route path="/twitter" exact component={Twitter} />
-            <Route path="/instagram" exact component={Instagram} />
+          <Switch basename="/Kurinji-Hacks-Website">
             <Route path="/contact">
               <HomePage />
             </Route>
@@ -67,7 +57,10 @@ export default class NAVBAR extends React.Component {
             <Route path="/projects">
               <HomePage />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
+              <HomePage />
+            </Route>
+            <Route path="/schedule">
               <HomePage />
             </Route>
           </Switch>
