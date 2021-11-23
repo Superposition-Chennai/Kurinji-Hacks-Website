@@ -8,7 +8,7 @@ import wolfram from "./Assets/sponsorsLogos/wolfram.png";
 import xyz from "./Assets/sponsorsLogos/xyz.png";
 import balsamiq from "./Assets/sponsorsLogos/balsamiq.png";
 import slingshot from "./Assets/sponsorsLogos/slingshot.png";
-import interviewcake from "./Assets/sponsorsLogos/interview-cake.jpg";
+import interviewcake from "./Assets/sponsorsLogos/interview-cake.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
