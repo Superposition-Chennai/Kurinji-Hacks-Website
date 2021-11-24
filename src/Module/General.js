@@ -36,7 +36,7 @@ const TOP_SECTION = {
   IMG_SRC: logo,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
+    "https://forms.gle/PPccbUemh85N46xw8",
   HACKERS_REGISTRATION_FORM_LINK:
     "https://forms.gle/ZqArTs49RKK7f5rG6"
 };
@@ -65,7 +65,7 @@ const FOOTER = {
     src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
   },
   JOIN_TEAM: {
-    required: true,
+    required: false,
     src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
   },
   Privacy_policy: {
