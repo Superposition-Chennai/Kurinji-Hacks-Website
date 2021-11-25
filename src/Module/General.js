@@ -9,6 +9,8 @@ import xyz from "./Assets/sponsorsLogos/xyz.png";
 import balsamiq from "./Assets/sponsorsLogos/balsamiq.png";
 import slingshot from "./Assets/sponsorsLogos/slingshot.png";
 import interviewcake from "./Assets/sponsorsLogos/interview-cake.png";
+import framer from "./Assets/sponsorsLogos/framer.png";
+import gfg from "./Assets/sponsorsLogos/gfg.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -220,9 +222,9 @@ const TeamInfo = [
 
 const sponsorLogos = [
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
-  [{src: taskade}, {src: xyz}, {src: raahee}], //Array 2
+  [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
   [{src: slingshot},{src: balsamiq},{src: interviewcake}], //Array 3
-  [{src: jetbrains}],
+  [{src: framer},{src: raahee},{src: jetbrains}],
 ];
 
 /** Instructions
