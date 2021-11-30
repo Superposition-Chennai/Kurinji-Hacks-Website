@@ -144,9 +144,9 @@ export default function HomePage(props) {
         <Birds top="120vh" left="0vh" type="" />
 
         {/* ********Team here ***** */}
-        <h1>Our Team</h1>
+        {/* <h1>Our Team</h1>
         {FOOTER.JOIN_TEAM.required && <JoinTeam />}
-        {TeamInfo.map(TeamMembers)}
+        {TeamInfo.map(TeamMembers)} */}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />

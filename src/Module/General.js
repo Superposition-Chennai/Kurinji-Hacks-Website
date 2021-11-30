@@ -224,7 +224,7 @@ const sponsorLogos = [
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
   [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
   [{src: slingshot},{src: balsamiq},{src: interviewcake}], //Array 3
-  [{src: framer},{src: raahee},{src: jetbrains}],
+  [{src: framer},{src: raahee },{src: jetbrains}],
 ];
 
 /** Instructions
