@@ -45,7 +45,7 @@ const TOP_SECTION = {
 
 const SOCIALS = {
   instagram: "https://www.instagram.com/superpositionchennai/",
-  discord: "https://discord.com/invite/5c4k3scjea/",
+  discord: "https://discord.com/invite/GVFs3kSbsF/",
   linkedin: "https://www.linkedin.com/company/superposition-chennai/",
   twitter: "https://twitter.com/SuperPosChennai",
   devpost: "https://kurinji-hacks.devpost.com/",
