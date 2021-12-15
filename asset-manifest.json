@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kurinji-Hacks-Website/static/css/main.ab7690f1.chunk.css",
-    "main.js": "/Kurinji-Hacks-Website/static/js/main.111b9cb4.chunk.js",
-    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.111b9cb4.chunk.js.map",
+    "main.js": "/Kurinji-Hacks-Website/static/js/main.0b956371.chunk.js",
+    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.0b956371.chunk.js.map",
     "runtime-main.js": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js",
     "runtime-main.js.map": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js.map",
     "static/js/2.c2cf7db5.chunk.js": "/Kurinji-Hacks-Website/static/js/2.c2cf7db5.chunk.js",
@@ -40,6 +40,6 @@
     "static/js/runtime-main.1d6ef6e4.js",
     "static/js/2.c2cf7db5.chunk.js",
     "static/css/main.ab7690f1.chunk.css",
-    "static/js/main.111b9cb4.chunk.js"
+    "static/js/main.0b956371.chunk.js"
   ]
 }
