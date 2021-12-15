@@ -146,27 +146,9 @@ const Prizeinfo = [
       content: "Recognizes a team that creates the best hack for environment and health, with a focus on sustainability and future."
     },
     {
-      icon: <i class="far fa-laugh-beam fifth fa-3x "></i>,
-      type: "Best Recreation Hack",
-      content: "Recognizes the team that creates the funniest and most entertaining hack!"
-    }
-  ],
-  [
-    //Array 3
-    {
       icon: <i class="fas fa-school sixth fa-3x "></i>,
       type: "Best High School Hack",
       content: "Recognizes the best hack created by a team consisting of all high school students."
-    },
-    {
-      icon: <i class="fas fa-robot third fa-3x "></i>,
-      type: "Best AI Hack",
-      content: "Recognizes a team that creates the best hack that uses AI in the best way."
-    },
-    {
-      icon: <i class="fab fa-accessible-icon fifth fa-3x "></i>,
-      type: "Best Accessibility Hack",
-      content: "Recognizes the hackathon project that enables accessibility the most innovatively."
     }
   ]
 ];
