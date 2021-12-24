@@ -11,6 +11,12 @@ import slingshot from "./Assets/sponsorsLogos/slingshot.png";
 import interviewcake from "./Assets/sponsorsLogos/interview-cake.png";
 import framer from "./Assets/sponsorsLogos/framer.png";
 import gfg from "./Assets/sponsorsLogos/gfg.png";
+import onep from "./Assets/sponsorsLogos/1Password.png";
+import axure from "./Assets/sponsorsLogos/axure.png";
+import certopus from "./Assets/sponsorsLogos/certopus.svg";
+import ll from "./Assets/sponsorsLogos/ll.png";
+import hackplus from "./Assets/sponsorsLogos/hackplus.svg";
+import hackclub from "./Assets/sponsorsLogos/hackclub.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -146,7 +152,7 @@ const Prizeinfo = [
       content: "Recognizes a team that creates the best hack for environment and health, with a focus on sustainability and future."
     },
     {
-      icon: <i class="fas fa-school sixth fa-3x "></i>,
+      icon: <i class="fas fa-school fifth fa-3x "></i>,
       type: "Best High School Hack",
       content: "Recognizes the best hack created by a team consisting of all high school students."
     }
@@ -205,8 +211,10 @@ const TeamInfo = [
 const sponsorLogos = [
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
   [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
-  [{src: slingshot},{src: balsamiq},{src: interviewcake}], //Array 3
-  [{src: framer},{src: raahee },{src: jetbrains}],
+  [{src: slingshot},{src: balsamiq},{src: interviewcake}],
+  [{src: axure},{src: ll},{src: certopus}], //Array 3
+  [{src: framer},{src: raahee },{src: onep}],
+  [{src: hackplus}, {src: hackclub},{src: jetbrains}],
 ];
 
 /** Instructions
