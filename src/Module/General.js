@@ -1,7 +1,7 @@
 // Importing all sponsors logos from Assets
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import echo3D from "./Assets/sponsorsLogos/echo3D.png";
-import jetbrains from "./Assets/sponsorsLogos/jetbrains.png";
+import codingblocks from "./Assets/sponsorsLogos/codin blocks.png";
 import raahee from "./Assets/sponsorsLogos/Raahee.png";
 import voiceflow from "./Assets/sponsorsLogos/voiceflow.png";
 import wolfram from "./Assets/sponsorsLogos/wolfram.png";
@@ -214,7 +214,7 @@ const sponsorLogos = [
   [{src: slingshot},{src: balsamiq},{src: interviewcake}],
   [{src: axure},{src: ll},{src: certopus}], //Array 3
   [{src: framer},{src: raahee },{src: onep}],
-  [{src: hackplus}, {src: hackclub},{src: jetbrains}],
+  [{src: hackplus}, {src: hackclub},{src: codingblocks}],
 ];
 
 /** Instructions
