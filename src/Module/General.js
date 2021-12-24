@@ -1,7 +1,7 @@
 // Importing all sponsors logos from Assets
 import taskade from "./Assets/sponsorsLogos/taskade.png";
 import echo3D from "./Assets/sponsorsLogos/echo3D.png";
-import codingblocks from "./Assets/sponsorsLogos/codin blocks.png";
+import codingblocks from "./Assets/sponsorsLogos/coding blocks.png";
 import raahee from "./Assets/sponsorsLogos/Raahee.png";
 import voiceflow from "./Assets/sponsorsLogos/voiceflow.png";
 import wolfram from "./Assets/sponsorsLogos/wolfram.png";
