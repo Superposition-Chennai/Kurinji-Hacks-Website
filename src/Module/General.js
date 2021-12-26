@@ -156,6 +156,18 @@ const Prizeinfo = [
       type: "Best High School Hack",
       content: "Recognizes the best hack created by a team consisting of all high school students."
     }
+  ],
+  [
+    {
+      icon: <i class="fas fa-robot sixth fa-3x "></i>,
+      type: "Best AI Hack",
+      content: "Recognizes a team that creates the best hack that uses AI in the best way."
+    },
+    {
+      icon: <i class="fas fa-project-diagram third fa-3x "></i>,
+      type: "Best Blockchain/Web 3.0 Hack",
+      content: "Recognizes a team that creates the best Blockchain/Web 3.0 Hack built with Koii."
+    },
   ]
 ];
 
