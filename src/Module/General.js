@@ -97,6 +97,35 @@ const FOOTER = {
  * create as many arrays you want all prizes will be rendered
  * in a group of 3.
  */
+const Tracks = [
+  [{
+    icon: <i class="first fas fa-3x fa-handshake"></i>,
+    type: "Gender Equality",
+    content:"Build an innovative and inclusive solution with the focus on Female Empowerment & Gender-Equity."
+  },
+  {
+    icon: <i class="first fas fa-3x fa-graduation-cap"></i>,
+    type: "Education",
+    content:"Develop an innovative tool that aids online education and connects students together."
+  },
+  {
+    icon: <i class="first fas fa-3x fa-cloud-sun-rain"></i>,
+    type: "Sustainability",
+    content:"Build an innovative solution for environment and health, with a focus on sustainability and future."
+  },],
+  [
+    {
+      icon: <i class="first fas fa-3x fa-brain"></i>,
+      type: "Mental Health",
+      content:"Build an innovative solution with the focus on mental wellbeing and health."
+    },
+    {
+      icon: <i class="first fas fa-3x fa-lightbulb"></i>,
+      type: "Open Innovation",
+      content:"Develop an innovative solution for any problem :)"
+    },
+  ],
+]
 
 const Prizeinfo = [
   [
@@ -281,6 +310,7 @@ export {
   MIDDLE_SECTION,
   SOCIALS,
   FOOTER,
+  Tracks,
   Prizeinfo,
   sponsorLogos,
   TeamInfo,

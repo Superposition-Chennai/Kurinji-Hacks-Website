@@ -6,7 +6,7 @@ import Col from "react-bootstrap/Col";
 import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
-import {Prizeinfo} from "../../Module/General";
+import {Prizeinfo, Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
@@ -55,7 +55,17 @@ function PrizeGroup(props) {
     </Row>
   );
 }
-
+function TrackGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={12} lg={4} md={6}>
+          <FirstPrize icon={s.icon} type={s.type} content={s.content}/>
+        </Col>
+      ))}
+    </Row>
+  );
+}
 // Prize group ending
 function TeamMembers(props) {
   return (
@@ -125,6 +135,10 @@ export default function HomePage(props) {
          </div>  
 
         {/* ********Prizes here ***** */}
+        <Row className="tracks">
+          <PrizeHeading type="Tracks" />
+          {Tracks.map(TrackGroup)}
+        </Row>
         <Row className="prizesection">
           <PrizeHeading type="Prizes" />
           {Prizeinfo.map(PrizeGroup)}
