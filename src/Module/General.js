@@ -78,7 +78,7 @@ const FOOTER = {
     required: false,
     src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
   },
-  Privacy_policy: {
+  CodeOfConduct: {
     required: true,
     src: ""
   },
@@ -114,7 +114,8 @@ const Tracks = [
     icon: <i class="first fas fa-3x fa-cloud-sun-rain"></i>,
     type: "Sustainability",
     content:"Build an innovative solution for environment and health, with a focus on sustainability and future."
-  },],
+  }
+  ],
   [
     {
       icon: <i class="first fas fa-3x fa-brain"></i>,
@@ -124,10 +125,10 @@ const Tracks = [
     {
       icon: <i class="first fas fa-3x fa-lightbulb"></i>,
       type: "Open Innovation",
-      content:"Develop an innovative solution for any problem :)"
-    },
+      content:"Develop an innovative solution for any problem you can think of :) Sky is the limit!"
+    }
   ],
-]
+];
 
 const Prizeinfo = [
   [

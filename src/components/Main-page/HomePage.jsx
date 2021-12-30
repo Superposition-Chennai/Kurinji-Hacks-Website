@@ -117,7 +117,7 @@ export default function HomePage(props) {
           </Row>
         </Container>
       </div>
-      <Container fluid>
+      <Container fluid={true}>
         {/* Logo section  */}
         <Row className=" logoSection">
           <Col className="info-div" sm={12} lg={8} md={8}>
@@ -135,7 +135,7 @@ export default function HomePage(props) {
          </div>  
 
         {/* ********Prizes here ***** */}
-        <Row className="tracks">
+        <Row className="tracks" >
           <PrizeHeading type="Tracks" />
           {Tracks.map(TrackGroup)}
         </Row>

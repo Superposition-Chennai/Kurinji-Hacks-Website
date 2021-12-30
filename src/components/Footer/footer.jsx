@@ -91,26 +91,15 @@ export default function Footer() {
             </a>{" "}
           </p>
 
-          {/* {FOOTER.Privacy_policy.required && (
+          {FOOTER.CodeOfConduct.required && (
             <a
-              href={PrivacyPolicy}
-              download
+              href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
               target="blank"
               className="privacy-policy"
             >
-              <p>Privacy Policy</p>
+              <p>Code of Conduct</p>
             </a>
           )}
-          {FOOTER.Terms_of_use.required && (
-            <a
-              href={TermsOfUse}
-              download
-              target="blank"
-              className="privacy-policy"
-            >
-              <p>Terms of Use</p>
-            </a>
-          )} */}
           <p>Made with ❤️</p>
 
         </div>
