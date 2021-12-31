@@ -98,7 +98,7 @@ function FrequentlyAsked(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" id="home" style={{backgroundImage: `url(${pattern})`}}>
+    <div className="Whole_div" id="home">
       <div className="color_section">
         <Container fluid>
           <Row className="Row info">
