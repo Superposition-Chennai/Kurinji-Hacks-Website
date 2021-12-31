@@ -92,13 +92,44 @@ button:hover .overlay {
   width: 100%;
   left: 0;
 }
-
-@media (max-width: 1200px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
   .AboutMe h2 {
-    /* font-size: 6rem; */
+    font-size: 10rem;
+  }
+
+  .Myinfo p {
+    font-size: 4rem;
   }
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .AboutMe h2 {
+    font-size: 10rem;
+  }
+  .Myinfo p {
+    font-size: 3rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .AboutMe h2 {
+    font-size: 6rem;
+  }
+  .Myinfo p {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .AboutMe h2 {
+    font-size: 6rem;
+  }
+  .Myinfo p {
+    font-size: 2rem;
+  }
+}
 /* main targer */
 
 @media (max-width: 570px) {
