@@ -98,8 +98,8 @@ function FrequentlyAsked(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
-      <div className="color_sectiom">
+    <div className="Whole_div" id="home" style={{backgroundImage: `url(${pattern})`}}>
+      <div className="color_section">
         <Container fluid>
           <Row className="Row info">
             <Col className="info-div" sm={12} lg={7} md={8}>
@@ -120,11 +120,8 @@ export default function HomePage(props) {
       <Container fluid={true}>
         {/* Logo section  */}
         <Row className=" logoSection">
-          <Col className="info-div" sm={12} lg={8} md={8}>
+          <Col className="info-div" sm={12} lg={12} md={12}>
             <LogoSectionAbout />
-          </Col>
-          <Col className="info-div" sm={12} lg={4} md={4}>
-            <Logo />
           </Col>
         </Row>
 

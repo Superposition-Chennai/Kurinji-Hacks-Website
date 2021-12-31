@@ -5,12 +5,13 @@
   font-family: "Montserrat", sans-serif;
   position: relative;
   width: 100%;
+  padding:0;
 }
 .mediaInfo {
   margin-top: 10vh;
   background-size: auto 100vh;
 }
-.color_sectiom {
+.color_section {
   background-color: #f8c8d7;
   padding-bottom: 5rem;
 }
@@ -40,17 +41,16 @@ top: 10px;
 }
 .logoSection {
   text-align: center;
-  padding: 20vh 10vh 0 10vh;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  padding: 2vh 0 2vh;
+  margin: 0 auto;
 }
 .members {
   padding: 0vh 10vh 0 10vh;
 }
 .prizesection {
   text-align: center;
-  padding: 2vw 4vw;
-  margin: 2vw 8vw;
+  padding: 2vh 4vw;
+  margin: 2vh 8vw;
   border-radius: 14px;
   background-color: #fdeff6;
 }
@@ -85,10 +85,12 @@ top: 10px;
     background-size: auto 100vh;
     width: 100%;
   }
-
+  .logoSection img{
+    margin: 0 auto;
+  }
   .faqsSection {
-    padding: 0;
-    margin-top: 0vh;
+    margin: 0 auto;
+    padding: 2vh 2vh;
   }
   .members {
     margin: 0;

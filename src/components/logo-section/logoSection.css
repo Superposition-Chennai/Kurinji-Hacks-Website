@@ -10,14 +10,14 @@
 .Logo{
     width: 60%;
     display: inline-block;
-    margin: 0;
+    /* margin: 0; */
    padding: 0;
    position: absolute;
 }
 
-.logoS img{
+/* .logoS img{
 margin: 0;
-}
+} */
 .sym{
   z-index: 4;
   width: 120px;
@@ -28,7 +28,7 @@ margin: 0;
 
 .logo1{
   z-index: 3;
-  top: 0;
+  /* top: 0; */
   transition: 0.4s;
 
 }
@@ -95,7 +95,7 @@ transition: 0.4s;
       /* background-color: black; */
     }
     .Logo{
-     margin: 0 auto;
+     margin: 10vh 10vh;
     }
   }
  
