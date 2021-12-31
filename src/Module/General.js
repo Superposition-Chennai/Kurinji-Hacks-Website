@@ -19,7 +19,7 @@ import hackplus from "./Assets/sponsorsLogos/hackplus.svg";
 import hackclub from "./Assets/sponsorsLogos/hackclub.png";
 import mlh from "./Assets/sponsorsLogos/mlh.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
-import digo from "./Assets/sponsorLogos/do.png";
+import digo from "./Assets/sponsorsLogos/do.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
