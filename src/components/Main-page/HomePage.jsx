@@ -102,10 +102,10 @@ export default function HomePage(props) {
       <div className="color_section">
         <Container fluid>
           <Row className="Row info">
-            <Col className="info-div" sm={12} lg={7} md={8}>
+            <Col className="info-div" sm={12} lg={8} md={8}>
               <Myinfo />
             </Col>
-            <Col className="d-image" sm={12} lg={5} md={4}>
+            <Col className="d-image" sm={12} lg={4} md={4}>
               <img src={TOP_SECTION.IMG_SRC} />
             </Col>
           </Row>
@@ -120,7 +120,7 @@ export default function HomePage(props) {
       <Container fluid={true}>
         {/* Logo section  */}
         <Row className=" logoSection">
-          <Col className="info-div" sm={12} lg={12} md={12}>
+          <Col className="info-div">
             <LogoSectionAbout />
           </Col>
         </Row>
