@@ -19,6 +19,7 @@ import hackplus from "./Assets/sponsorsLogos/hackplus.svg";
 import hackclub from "./Assets/sponsorsLogos/hackclub.png";
 import mlh from "./Assets/sponsorsLogos/mlh.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
+import digo from "./Assets/sponsorLogos/do.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -253,13 +254,13 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: mlh},{src:koii},{src: hackplus},],
+  [{src: mlh},{src:koii},{src: digo},],
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
   [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
   [{src: slingshot},{src: balsamiq},{src: interviewcake}],
   [{src: axure},{src: ll},{src: certopus}], //Array 3
   [{src: framer},{src: raahee },{src: onep}],
-  [{src: hackclub},{src: codingblocks}],
+  [{src: hackplus},{src: hackclub},{src: codingblocks}],
 ];
 
 /** Instructions
