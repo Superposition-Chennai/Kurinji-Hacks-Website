@@ -261,8 +261,8 @@ const sponsorLogos = [
   [{src: replit},{src: balsamiq},{src: interviewcake}],
   [{src: axure},{src: ll},{src: certopus}], //Array 3
   [{src: framer},{src: raahee },{src: onep}],
-  [{src: hackplus},{src: hackclub},{src: codingblocks}],
-  [{src: slingshot}]
+  [{src: hackplus},{src: codingblocks},{src: slingshot}],
+  [{src: hackclub},]
 ];
 
 /** Instructions
