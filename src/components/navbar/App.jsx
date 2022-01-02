@@ -45,8 +45,13 @@ export default class NAVBAR extends React.Component {
                 </Link>
               </li>
               <li>
-                <Link to="/projects">
-                  <span className="links">More info </span>{" "}
+                <Link to="/speakers">
+                  <span className="links">Speakers </span>{" "}
+                </Link>
+              </li>
+              <li>
+                <Link to="/contact">
+                  <span className="links">Contact Us </span>{" "}
                 </Link>
               </li>
             </ul>
@@ -64,7 +69,7 @@ export default class NAVBAR extends React.Component {
             <Route path="/links">
               <HomePage />
             </Route>
-            <Route path="/projects">
+            <Route path="/speakers">
               <HomePage />
             </Route>
             <Route exact path="/">
@@ -85,7 +90,7 @@ function Projects() {
 }
 
 function Contact() {
-  return <h2>contact info</h2>;
+  return <h2>Contact info</h2>;
 }
 
 function Links() {
