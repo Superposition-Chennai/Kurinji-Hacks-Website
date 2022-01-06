@@ -82,6 +82,12 @@ export default function Footer() {
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
           )}
+          <a href="https://bit.ly/kh_speaker">
+              <Btn type="Speak" class="Volunteer" overlay="Fill the form" />
+            </a>
+            <a href="https://bit.ly/kh_sponsor">
+              <Btn type="Sponsor" class="Volunteer" overlay="Fill the form" />
+            </a>
         </div>
         <div className="footer_info">
           <p>
