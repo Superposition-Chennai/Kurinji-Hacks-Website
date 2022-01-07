@@ -34,7 +34,8 @@ h1 {
   position: relative;
   transition: 0.3s;
   top:0px;
-  margin-left: 0;
+  /* margin-left: 0; */
+  margin-right: 20vw;
   transition: top 0.2s linear;
 }
 .d-image img:hover {
@@ -63,11 +64,6 @@ top: 10px;
   margin: 2vw 8vw;
   background-color: #f5e9f7;
 }
-.sponsorSection {
-  padding: 17vh 18vh 0 18vh;
-  margin-top: -10vh;
-  margin-top: 0vh;
-}
 .faqsSection {
   text-align: center;
   margin: 0 auto;
@@ -78,7 +74,29 @@ top: 10px;
 .container {
   max-width: '100%';
 }
-
+@media only screen and (min-width: 992px) {
+  .info{
+    padding-top: 10vh;
+  }
+  .d-image{
+      padding-top: 2vh;
+  }
+  .sponsorSection {
+    padding: 17vh 18vh 0 18vh;
+    margin-top: -10vh;
+    margin-top: 0vh;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .info{
+    padding-top: 10vh;
+  }
+  .sponsorSection {
+    padding: 17vh 18vh 0 18vh;
+    margin-top: -10vh;
+    margin-top: 0vh;
+  }
+}
 @media all and (max-width: 570px) {
   .mediaInfo {
     margin: 0 0;
@@ -107,13 +125,12 @@ top: 10px;
     margin: 0 5vh;
     padding: 2vh 2vh;
   }
-  .sponsorSection {
-    padding: 0;
-    margin: 0;
-    margin: 12rem auto;
-  }
   .logoSection {
     text-align: center;
     padding: 20vh 0vh 0 0vh;
+  }
+  .sponsorSection {
+    padding: 5vh 2vh;
+    margin: 0 5vh;
   }
 }

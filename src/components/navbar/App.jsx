@@ -3,6 +3,7 @@ import "./styles.scss";
 // import MytypedComponent from "../typing-effect/typing.js"
 // import TOGGLE from "../toggle-button/toggle";
 import HomePage from "../Main-page/HomePage";
+import { Myinfo } from "../Top-division-components/Top-division-components";
 // import logo from "./logoo.png"
 import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
 
@@ -64,9 +65,6 @@ export default class NAVBAR extends React.Component {
             <Route path="/twitter" exact component={Twitter} />
             <Route path="/instagram" exact component={Instagram} />
             <Route path="/contact">
-              <HomePage />
-            </Route>
-            <Route path="/links">
               <HomePage />
             </Route>
             <Route path="/speakers">
