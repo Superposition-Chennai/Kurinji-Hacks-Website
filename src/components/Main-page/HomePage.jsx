@@ -31,7 +31,7 @@ function SponsorGroup(props) {
   return (
     <Row>
       {props.map(s => (
-        <Col className="" sm={12} lg={4} md={6}>
+        <Col className="" sm={6} lg={4} md={6}>
           {" "}
           <Sponsor srcx={s.src} />{" "}
         </Col>
