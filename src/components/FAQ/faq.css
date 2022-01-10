@@ -66,3 +66,9 @@ margin-top: 10px;
 .panel:not(:last-child) {
   margin-bottom: 3px;
 }
+@media all and (max-width: 570px) {
+  .sf{
+    width: 100%;
+    margin: 2vh 2vh;
+  }
+}
