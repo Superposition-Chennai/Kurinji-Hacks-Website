@@ -101,7 +101,7 @@ export default function Footer() {
             <a
               href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
               target="blank"
-              className="privacy-policy"
+              className="footer-info"
             >
               <p>Code of Conduct</p>
             </a>

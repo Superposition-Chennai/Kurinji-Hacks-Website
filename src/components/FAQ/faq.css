@@ -1,6 +1,5 @@
 .accordion {
-  width: 100%;
-  max-width: 480px;
+  min-width: 480px;
   margin: 0 auto;
   position: relative;
 }
@@ -17,7 +16,8 @@ margin-top: 10px;
   text-align: left;
   padding: 15px 65px 27px 30px;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
+  height: max-content;
   font-family: inherit;
   transition: color 0.1s linear;
   cursor: pointer;
@@ -60,6 +60,7 @@ margin-top: 10px;
   font-size: 17px;
   color: #000000;
   opacity: 0;
+  font-weight: bolder;
   text-align: left;
   transition: opacity 0.3s linear 0.18s;
 }
