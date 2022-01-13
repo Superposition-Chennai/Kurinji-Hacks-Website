@@ -5,6 +5,7 @@ import "./styles.scss";
 import HomePage from "../Main-page/HomePage";
 import { Myinfo } from "../Top-division-components/Top-division-components";
 // import logo from "./logoo.png"
+import Schedule from "../Schedule/Schedule";
 import {HashRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 import Discord from "../Routes/Discord";
@@ -74,7 +75,7 @@ export default class NAVBAR extends React.Component {
               <HomePage />
             </Route>
             <Route path="/schedule">
-              <HomePage />
+              <Schedule />
             </Route>
           </Switch>
         </div>
