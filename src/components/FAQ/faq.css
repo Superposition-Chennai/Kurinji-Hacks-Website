@@ -60,7 +60,7 @@ margin-top: 10px;
   font-size: 17px;
   color: #000000;
   opacity: 0;
-  font-weight: bolder;
+  font-weight: 400;
   text-align: left;
   transition: opacity 0.3s linear 0.18s;
 }
