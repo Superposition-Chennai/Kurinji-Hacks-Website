@@ -18,13 +18,13 @@ import Contact from "../contact/contact";
 
 export default class NAVBAR extends React.Component {
   state = {
-    color: "#ff8ab3"
+    color: "#ff99ac"
   };
   listenScrollEvent = e => {
     if (window.scrollY > 800) {
-      this.setState({color: "#DBD2EA"});
+      this.setState({color: "#EEC8E0"});
     } else {
-      this.setState({color: "#ff8ab3"});
+      this.setState({color: "#ff99ac"});
     }
   };
 

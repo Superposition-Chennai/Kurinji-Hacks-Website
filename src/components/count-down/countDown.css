@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .counter{
     display: block;
-    background-color: #f0ddf3;
+    background-color: #f7cad0;
     color: black;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     padding: 10vh 30px;
     border-radius: 8px;
     text-align: center;
