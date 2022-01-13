@@ -13,6 +13,8 @@ import Twitter from "../Routes/Twitter";
 import Linkedin from "../Routes/LinkedIn";
 import Instagram from "../Routes/Instagram";
 import Devpost from "../Routes/Devpost";
+import CountDown from "../count-down/countDown";
+import Contact from "../contact/contact";
 
 export default class NAVBAR extends React.Component {
   state = {
@@ -42,18 +44,13 @@ export default class NAVBAR extends React.Component {
                 </Link>
               </li>
               <li>
+                <Link to="/countdown">
+                  <span className="links">Countdown </span>{" "}
+                </Link>
+              </li>
+              <li>
                 <Link to="/schedule">
                   <span className="links">Schedule </span>{" "}
-                </Link>
-              </li>
-              <li>
-                <Link to="/speakers">
-                  <span className="links">Speakers </span>{" "}
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact">
-                  <span className="links">Contact Us </span>{" "}
                 </Link>
               </li>
             </ul>
@@ -65,11 +62,9 @@ export default class NAVBAR extends React.Component {
             <Route path="/devpost" exact component={Devpost} />
             <Route path="/twitter" exact component={Twitter} />
             <Route path="/instagram" exact component={Instagram} />
-            <Route path="/contact">
-              <HomePage />
-            </Route>
-            <Route path="/speakers">
-              <HomePage />
+            
+            <Route path="/countdown">
+              <CountDown/>
             </Route>
             <Route exact path="/">
               <HomePage />
@@ -88,9 +83,6 @@ function Projects() {
   return <h2>Projects here</h2>;
 }
 
-function Contact() {
-  return <h2>Contact info</h2>;
-}
 
 function Links() {
   return <h2>Home</h2>;
