@@ -10,7 +10,9 @@ export default class Schedule extends React.PureComponent {
     return (
       <div className="schedule">
         <h1>Hackathon Schedule</h1>
-        <iframe class="airtable-embed" src="https://airtable.com/embed/shrwlNXqRQOGtwpSP?backgroundColor=yellow" frameBorder="0" onmousewheel="" width="100%" height="100%" style={{background: "transparent", border: "1px solid #ccc"}}/>
+        <center>
+        <iframe class="airtable-embed" src="https://airtable.com/embed/shrwlNXqRQOGtwpSP?backgroundColor=yellow&layout=card" frameBorder="0"style={{background: "transparent", border: "1px solid #ccc"}}/>
+        </center>
       </div>
     );
   }
