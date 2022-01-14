@@ -8,24 +8,26 @@
   background-color: #f7cad0;
   width: 100%;
   height: 100%;
-  padding: 10vh 8vw;
+  padding: 10vh 0;
 }
-@media only screen and (min-width: 800px) {
+
+@media only screen and (min-width: 600px) {
   .schedule{
     font-size: 1rem;
   }
   .schedule iframe{
-    width: 75%;
+    width: 65%;
     height: 100%;
+    font-weight: bolder;
   }
   
 }
-@media all and (max-width: 700px){
+@media only screen and (min-width: 992px){
   .schedule{
     font-size: 2rem;
   }
   .schedule iframe{
     width: 70%;
-    height: min-content;
+    height: 100%;
   }
 }
