@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Kurinji-Hacks-Website/static/css/main.32e97930.chunk.css",
+    "main.css": "/Kurinji-Hacks-Website/static/css/main.0c5e041b.chunk.css",
     "main.js": "/Kurinji-Hacks-Website/static/js/main.04beb996.chunk.js",
     "main.js.map": "/Kurinji-Hacks-Website/static/js/main.04beb996.chunk.js.map",
     "runtime-main.js": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js",
@@ -8,7 +8,7 @@
     "static/js/2.bddabc30.chunk.js": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js",
     "static/js/2.bddabc30.chunk.js.map": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js.map",
     "index.html": "/Kurinji-Hacks-Website/index.html",
-    "static/css/main.32e97930.chunk.css.map": "/Kurinji-Hacks-Website/static/css/main.32e97930.chunk.css.map",
+    "static/css/main.0c5e041b.chunk.css.map": "/Kurinji-Hacks-Website/static/css/main.0c5e041b.chunk.css.map",
     "static/js/2.bddabc30.chunk.js.LICENSE.txt": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js.LICENSE.txt",
     "static/media/1Password.ec9ecfc8.png": "/Kurinji-Hacks-Website/static/media/1Password.ec9ecfc8.png",
     "static/media/Kurinji-Hacks logo.bbc37a3d.png": "/Kurinji-Hacks-Website/static/media/Kurinji-Hacks logo.bbc37a3d.png",
@@ -47,7 +47,7 @@
   "entrypoints": [
     "static/js/runtime-main.1d6ef6e4.js",
     "static/js/2.bddabc30.chunk.js",
-    "static/css/main.32e97930.chunk.css",
+    "static/css/main.0c5e041b.chunk.css",
     "static/js/main.04beb996.chunk.js"
   ]
 }
