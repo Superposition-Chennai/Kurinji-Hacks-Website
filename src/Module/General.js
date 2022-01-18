@@ -145,13 +145,13 @@ const Prizeinfo = [
       icon: <i class=" third fas fa-3x fa-female"></i>,
       type: "Best Gender-Equity Hack",
       content:
-        "Recognizes a team that creates an innovative and inclusive solution to tackle a specific goal, with the focus on Female Empowerment & Gender-Equity."
+        "Each team member gets a 25$ Amazon Gift Card and 100$ worth Digital Ocean Credits"
     },
     {
       icon: <i class=" fifth fas fa-3x fa-book"></i>,
       type: "Best Ed-tech Hack",
       content:
-        "Recognizes a team that develops a tool that aids online education and connects students together."
+        "Each team member gets a GeeksforGeeks Gift Card worth ₹2000 and 100$ worth Digital Ocean Credits"
     }
   ],
   [
@@ -160,47 +160,41 @@ const Prizeinfo = [
       icon: <i class="fas sixth fa-3x fa-brain"></i>,
       type: "Best Mental Health Hack",
       content:
-        "Recognizes a team that creates an innovative solution with the focus on mental wellbeing and health."
+      "Each team member gets an opportunity to intern with Raahee and 125$ worth Digital Ocean Credits"
     },
     {
       icon: <i class="third fas fa-3x fa-child"></i>,
       type: "Best Beginner Hack",
-      content: "Your project will qualify for this category if atleast 50% of your team has first-time hackers "
+      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and 100$ worth Digital Ocean Credits"
     },
     {
       icon: <i class=" fifth fa-3x fas fa-palette"></i>,
       type: "Prettiest Hack",
-      content: "Recognizes the team which creates an accessible interface with a visually appealing flow, has conducted visible UX research, and built an interactive design."
+      content: "The team gets a total of 24 months of access to Framer Pro and each team member gets 1 year subscription to Axure RP Team Edition"
     }
   ],
   [
-    //Array 3
-    {
-      icon: <i class="fas fa-vr-cardboard sixth fa-3x "></i>,
-      type: "Best AR/VR Hack",
-      content: "For this challenge, Build the best AR/VR application using the echoAR platform! The only rule is that you must use the echoAR platform."
-    },
     {
       icon: <i class="fas fa-leaf third fa-3x "></i>,
       type: "Best Sustainability Hack",
-      content: "Recognizes a team that creates the best hack for environment and health, with a focus on sustainability and future."
+      content: "Each team member gets access to the Leading Learners Ed-tech Bundle and Expansion Pack, valued at 100$ each"
     },
     {
       icon: <i class="fas fa-school fifth fa-3x "></i>,
       type: "Best High School Hack",
-      content: "Recognizes the best hack created by a team consisting of all high school students."
-    }
-  ],
-  [
+      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and a 15$ Amazon Gift Card"
+    },
     {
       icon: <i class="fas fa-robot sixth fa-3x "></i>,
       type: "Best AI Hack",
-      content: "Recognizes a team that creates the best hack that uses AI in the best way."
+      content: "Symbl.ai Track - Resources and Goodies from Symbl.ai, Voiceflow Track - 1 year of Voiceflow Professional License"
     },
+  ],
+  [ 
     {
       icon: <i class="fas fa-project-diagram third fa-3x "></i>,
-      type: "Best Blockchain/Web 3.0 Hack",
-      content: "Recognizes a team that creates the best Blockchain/Web 3.0 Hack built with Koii."
+      type: "Best Blockchain/Web 3.0 Hack with Koii",
+      content: "Resources, Credits and Goodies from Koii valued at 100$ and an opportunity to work with them"
     },
   ]
 ];
