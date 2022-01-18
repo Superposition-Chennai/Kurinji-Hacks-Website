@@ -54,9 +54,9 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/superpositionchennai/",
+  instagram: "https://www.instagram.com/kurinjihacks/",
   discord: "https://discord.com/invite/GVFs3kSbsF/",
-  linkedin: "https://www.linkedin.com/company/superposition-chennai/",
+  linkedin: "https://www.linkedin.com/company/kurinji-hacks",
   twitter: "https://twitter.com/SuperPosChennai",
   devpost: "https://kurinji-hacks.devpost.com/",
   email: "mailto:ch.chennai@superposition.tech",
