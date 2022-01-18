@@ -57,7 +57,7 @@ const SOCIALS = {
   instagram: "https://www.instagram.com/kurinjihacks/",
   discord: "https://discord.com/invite/GVFs3kSbsF/",
   linkedin: "https://www.linkedin.com/company/kurinji-hacks",
-  twitter: "https://twitter.com/SuperPosChennai",
+  twitter: "https://twitter.com/KurinjiHacks",
   devpost: "https://kurinji-hacks.devpost.com/",
   email: "mailto:ch.chennai@superposition.tech",
   mail: "ch.chennai@superposition.tech"
