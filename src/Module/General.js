@@ -21,6 +21,7 @@ import mlh from "./Assets/sponsorsLogos/mlh.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
 import digo from "./Assets/sponsorsLogos/do.png";
 import replit from "./Assets/sponsorsLogos/replit.png";
+import symbl from "./Assets/sponsorsLogos/symblai.svg";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -104,7 +105,7 @@ const FOOTER = {
 const Tracks = [
   [{
     icon: <i class="first fas fa-3x fa-handshake"></i>,
-    type: "Gender Equality",
+    type: "Diversity and Inclusivity",
     content:"Build an innovative and inclusive solution with the focus on Female Empowerment & Gender-Equity."
   },
   {
@@ -143,7 +144,7 @@ const Prizeinfo = [
     },
     {
       icon: <i class=" third fas fa-3x fa-female"></i>,
-      type: "Best Gender-Equity Hack",
+      type: "Best Diversity and Inclusivity Hack",
       content:
         "Each team member gets a 25$ Amazon Gift Card and 100$ worth Digital Ocean Credits"
     },
@@ -253,10 +254,10 @@ const sponsorLogos = [
   [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
   [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
   [{src: replit},{src: balsamiq},{src: interviewcake}],
-  [{src: axure},{src: ll},{src: certopus}], //Array 3
-  [{src: framer},{src: raahee },{src: onep}],
-  [{src: hackplus},{src: codingblocks},{src: slingshot}],
-  [{src: hackclub},]
+  [{src: axure},{src: ll},{src:symbl}], //Array 3
+  [{src: framer},,{src: onep},{src: certopus}],
+  [{src: hackplus},{src: codingblocks},{src: raahee }],
+  [{src: hackclub},{src: slingshot}]
 ];
 
 /** Instructions
