@@ -251,14 +251,14 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: mlh},{src:koii},{src: digo},],
-  [{src: echo3D}, {src: wolfram}, {src: voiceflow}], //Array 1
-  [{src: taskade}, {src: xyz}, {src: gfg}], //Array 2
-  [{src: replit},{src: balsamiq},{src: interviewcake}],
-  [{src: axure},{src: ll},{src:symbl}], //Array 3
-  [{src: framer},,{src: onep},{src: certopus}],
-  [{src: hackplus},{src: codingblocks},{src: raahee }],
-  [{src: rosenfeld},{src: hackclub},{src: slingshot}]
+  [{src: mlh, link:"https://mlh.io"},{src:koii, link:"http://koii.network/"},{src: digo,link:"https://www.digitalocean.com/"},],
+  [{src: echo3D, link:"https://www.echo3d.co/"}, {src: wolfram, link:"https://www.wolfram.com/"}, {src: voiceflow, link:"https://www.voiceflow.com/"}], //Array 1
+  [{src: taskade, link:"https://www.taskade.com/"}, {src: xyz, link:"https://gen.xyz/"}, {src: gfg, link:"https://www.geeksforgeeks.org/"}], //Array 2
+  [{src: replit, link:"https://replit.com/"},{src: balsamiq, link:"https://balsamiq.com/"},{src: interviewcake, link:"https://www.interviewcake.com/"}],
+  [{src: axure, link:"https://www.axure.com/"},{src: ll, link:"http://linktr.ee/leadinglearners"},{src:symbl, link:"https://symbl.ai"}], //Array 3
+  [{src: framer, link:"https://www.framer.com/"},,{src: onep, link:"https://www.1password.com/"},{src: certopus, link:"https://certopus.com/"}],
+  [{src: hackplus, link:"https://hackplus.io/"},{src: codingblocks, link:"https://codingblocks.com/"},{src: raahee, link:"https://raahee.in/"}],
+  [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}]
 ];
 
 /** Instructions
