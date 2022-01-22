@@ -21,6 +21,7 @@ import mlh from "./Assets/sponsorsLogos/mlh.png";
 import koii from "./Assets/sponsorsLogos/koii.png";
 import digo from "./Assets/sponsorsLogos/do.png";
 import replit from "./Assets/sponsorsLogos/replit.png";
+import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.png";
 import symbl from "./Assets/sponsorsLogos/symblai.svg";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
@@ -257,7 +258,7 @@ const sponsorLogos = [
   [{src: axure},{src: ll},{src:symbl}], //Array 3
   [{src: framer},,{src: onep},{src: certopus}],
   [{src: hackplus},{src: codingblocks},{src: raahee }],
-  [{src: hackclub},{src: slingshot}]
+  [{src: rosenfeld},{src: hackclub},{src: slingshot}]
 ];
 
 /** Instructions
