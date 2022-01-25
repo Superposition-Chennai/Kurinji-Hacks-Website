@@ -23,11 +23,12 @@ import digo from "./Assets/sponsorsLogos/do.png";
 import replit from "./Assets/sponsorsLogos/replit.png";
 import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.png";
 import symbl from "./Assets/sponsorsLogos/symblai.svg";
+import sm from "./Assets/sponsorsLogos/stickermule.png";
 
-/** Put all your sponsors logo inside folder `sponsorLogos`
- * and import them in the above and update `src` in sponsorLogos
- * or you can provide a cloud link in src
- */
+import devun from "./Assets/partnerLogos/Developers United.png";
+import gischennai from "./Assets/partnerLogos/GiS Chennai.png";
+import michi from "./Assets/partnerLogos/michiSpotlight.png";
+import ct from "./Assets/partnerLogos/CommandTech.png";
 
 // Importing all Team members images  from Assets
 import me from "./Assets/teami/me.png";
@@ -258,9 +259,13 @@ const sponsorLogos = [
   [{src: axure, link:"https://www.axure.com/"},{src: ll, link:"http://linktr.ee/leadinglearners"},{src:symbl, link:"https://symbl.ai"}], //Array 3
   [{src: framer, link:"https://www.framer.com/"},,{src: onep, link:"https://www.1password.com/"},{src: certopus, link:"https://certopus.com/"}],
   [{src: hackplus, link:"https://hackplus.io/"},{src: codingblocks, link:"https://codingblocks.com/"},{src: raahee, link:"https://raahee.in/"}],
-  [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}]
+  [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}],
+  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"}]
 ];
-
+const partnerLogos=[
+  [{src:ct, link:"https://commandtech.carrd.co/"},{src:gischennai, link:"https://linktr.ee/girlsinstem_chennai"},{src:devun, link:"https://discord.gg/NQQUJ8V3qP"}],
+  [{src:michi, link:"https://michispotlight.substack.com/"}]
+]
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
  */
@@ -316,6 +321,7 @@ export {
   Tracks,
   Prizeinfo,
   sponsorLogos,
+  partnerLogos,
   TeamInfo,
   frequentlyAskedQuestions
 };

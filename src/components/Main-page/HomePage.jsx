@@ -9,6 +9,7 @@ import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo, Tracks} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
+import {PartnerUS, PartnerHead, Partner} from "../Community/partners.jsx";
 
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
@@ -22,6 +23,7 @@ import {
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
+  partnerLogos,
   panels
 } from "../../Module/General";
 
@@ -34,6 +36,18 @@ function SponsorGroup(props) {
         <Col className="" sm={6} lg={4} md={6}>
           {" "}
           <Sponsor link={s.link} srcx={s.src} />{" "}
+        </Col>
+      ))}
+    </Row>
+  );
+}
+function PartnerGroup(props) {
+  return (
+    <Row>
+      {props.map(s => (
+        <Col className="" sm={6} lg={4} md={6}>
+          {" "}
+          <Partner link={s.link} srcx={s.src} />{" "}
         </Col>
       ))}
     </Row>
@@ -151,6 +165,11 @@ export default function HomePage(props) {
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
+        <Row className="sponsorSection">
+          <PartnerHead />
+          <PartnerUS />
+          {partnerLogos.map(PartnerGroup)}
+        </Row>
 
         <Birds top="120vh" left="0vh" type="" />
 
