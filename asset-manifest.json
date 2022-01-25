@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/Kurinji-Hacks-Website/static/css/main.0c5e041b.chunk.css",
-    "main.js": "/Kurinji-Hacks-Website/static/js/main.78711448.chunk.js",
-    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.78711448.chunk.js.map",
+    "main.css": "/Kurinji-Hacks-Website/static/css/main.c4b0357c.chunk.css",
+    "main.js": "/Kurinji-Hacks-Website/static/js/main.ae42bad2.chunk.js",
+    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.ae42bad2.chunk.js.map",
     "runtime-main.js": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js",
     "runtime-main.js.map": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js.map",
-    "static/js/2.bddabc30.chunk.js": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js",
-    "static/js/2.bddabc30.chunk.js.map": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js.map",
+    "static/js/2.108b582f.chunk.js": "/Kurinji-Hacks-Website/static/js/2.108b582f.chunk.js",
+    "static/js/2.108b582f.chunk.js.map": "/Kurinji-Hacks-Website/static/js/2.108b582f.chunk.js.map",
     "index.html": "/Kurinji-Hacks-Website/index.html",
-    "static/css/main.0c5e041b.chunk.css.map": "/Kurinji-Hacks-Website/static/css/main.0c5e041b.chunk.css.map",
-    "static/js/2.bddabc30.chunk.js.LICENSE.txt": "/Kurinji-Hacks-Website/static/js/2.bddabc30.chunk.js.LICENSE.txt",
+    "static/css/main.c4b0357c.chunk.css.map": "/Kurinji-Hacks-Website/static/css/main.c4b0357c.chunk.css.map",
+    "static/js/2.108b582f.chunk.js.LICENSE.txt": "/Kurinji-Hacks-Website/static/js/2.108b582f.chunk.js.LICENSE.txt",
     "static/media/1Password.ec9ecfc8.png": "/Kurinji-Hacks-Website/static/media/1Password.ec9ecfc8.png",
+    "static/media/CommandTech.3ea28bd4.png": "/Kurinji-Hacks-Website/static/media/CommandTech.3ea28bd4.png",
+    "static/media/Developers United.1303c966.png": "/Kurinji-Hacks-Website/static/media/Developers United.1303c966.png",
+    "static/media/GiS Chennai.1e602adc.png": "/Kurinji-Hacks-Website/static/media/GiS Chennai.1e602adc.png",
     "static/media/Kurinji-Hacks logo.bbc37a3d.png": "/Kurinji-Hacks-Website/static/media/Kurinji-Hacks logo.bbc37a3d.png",
     "static/media/Privacy policy.9854a808.pdf": "/Kurinji-Hacks-Website/static/media/Privacy policy.9854a808.pdf",
     "static/media/Raahee.a9114a19.png": "/Kurinji-Hacks-Website/static/media/Raahee.a9114a19.png",
@@ -36,10 +39,12 @@
     "static/media/logo new 1.d829277d.png": "/Kurinji-Hacks-Website/static/media/logo new 1.d829277d.png",
     "static/media/lyin.ce4bedbc.jpg": "/Kurinji-Hacks-Website/static/media/lyin.ce4bedbc.jpg",
     "static/media/me.e7821056.png": "/Kurinji-Hacks-Website/static/media/me.e7821056.png",
+    "static/media/michiSpotlight.b7f27959.png": "/Kurinji-Hacks-Website/static/media/michiSpotlight.b7f27959.png",
     "static/media/moon.8fc0d610.png": "/Kurinji-Hacks-Website/static/media/moon.8fc0d610.png",
     "static/media/pattern4.c3d51b06.png": "/Kurinji-Hacks-Website/static/media/pattern4.c3d51b06.png",
     "static/media/replit.b53d3186.png": "/Kurinji-Hacks-Website/static/media/replit.b53d3186.png",
     "static/media/slingshot.abaa861e.png": "/Kurinji-Hacks-Website/static/media/slingshot.abaa861e.png",
+    "static/media/stickermule.d1ad4fc4.png": "/Kurinji-Hacks-Website/static/media/stickermule.d1ad4fc4.png",
     "static/media/symblai.5f43a9a0.svg": "/Kurinji-Hacks-Website/static/media/symblai.5f43a9a0.svg",
     "static/media/taskade.ac444bbc.png": "/Kurinji-Hacks-Website/static/media/taskade.ac444bbc.png",
     "static/media/voiceflow.f95fc7f3.png": "/Kurinji-Hacks-Website/static/media/voiceflow.f95fc7f3.png",
@@ -47,8 +52,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1d6ef6e4.js",
-    "static/js/2.bddabc30.chunk.js",
-    "static/css/main.0c5e041b.chunk.css",
-    "static/js/main.78711448.chunk.js"
+    "static/js/2.108b582f.chunk.js",
+    "static/css/main.c4b0357c.chunk.css",
+    "static/js/main.ae42bad2.chunk.js"
   ]
 }
