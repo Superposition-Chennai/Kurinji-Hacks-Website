@@ -24,6 +24,7 @@ import replit from "./Assets/sponsorsLogos/replit.png";
 import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.png";
 import symbl from "./Assets/sponsorsLogos/symblai.svg";
 import sm from "./Assets/sponsorsLogos/stickermule.png";
+import atsign from "./Assets/sponsorsLogos/The @ Company.png";
 
 import devun from "./Assets/partnerLogos/Developers United.png";
 import gischennai from "./Assets/partnerLogos/GiS Chennai.png";
@@ -148,7 +149,7 @@ const Prizeinfo = [
       icon: <i class=" third fas fa-3x fa-female"></i>,
       type: "Best Diversity and Inclusivity Hack",
       content:
-        "Each team member gets a 25$ Amazon Gift Card and 100$ worth Digital Ocean Credits"
+        "Each team member gets 125$ worth Digital Ocean Credits and Lifetime Upgrades of Taskade Unlimited "
     },
     {
       icon: <i class=" fifth fas fa-3x fa-book"></i>,
@@ -185,7 +186,7 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-school fifth fa-3x "></i>,
       type: "Best High School Hack",
-      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and a 15$ Amazon Gift Card"
+      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and a 10$ Amazon Gift Card"
     },
     {
       icon: <i class="fas fa-robot sixth fa-3x "></i>,
@@ -260,7 +261,7 @@ const sponsorLogos = [
   [{src: framer, link:"https://www.framer.com/"},,{src: onep, link:"https://www.1password.com/"},{src: certopus, link:"https://certopus.com/"}],
   [{src: hackplus, link:"https://hackplus.io/"},{src: codingblocks, link:"https://codingblocks.com/"},{src: raahee, link:"https://raahee.in/"}],
   [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}],
-  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"}]
+  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"},{src:atsign, link:"https://atsign.com/"}]
 ];
 const partnerLogos=[
   [{src:ct, link:"https://commandtech.carrd.co/"},{src:gischennai, link:"https://linktr.ee/girlsinstem_chennai"},{src:devun, link:"https://discord.gg/NQQUJ8V3qP"}],
