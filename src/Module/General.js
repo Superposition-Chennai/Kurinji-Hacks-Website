@@ -25,6 +25,7 @@ import rosenfeld from "./Assets/sponsorsLogos/rosenfeld.png";
 import symbl from "./Assets/sponsorsLogos/symblai.svg";
 import sm from "./Assets/sponsorsLogos/stickermule.png";
 import atsign from "./Assets/sponsorsLogos/The @ Company.png";
+import sketch from "./Assets/sponsorsLogos/Sketch.png";
 
 import devun from "./Assets/partnerLogos/Developers United.png";
 import gischennai from "./Assets/partnerLogos/GiS Chennai.png";
@@ -261,7 +262,7 @@ const sponsorLogos = [
   [{src: framer, link:"https://www.framer.com/"},,{src: onep, link:"https://www.1password.com/"},{src: certopus, link:"https://certopus.com/"}],
   [{src: hackplus, link:"https://hackplus.io/"},{src: codingblocks, link:"https://codingblocks.com/"},{src: raahee, link:"https://raahee.in/"}],
   [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}],
-  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"},{src:atsign, link:"https://atsign.com/"}]
+  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"},{src:atsign, link:"https://atsign.com/"},{src:sketch, link:"https://www.sketch.com/"}]
 ];
 const partnerLogos=[
   [{src:ct, link:"https://commandtech.carrd.co/"},{src:gischennai, link:"https://linktr.ee/girlsinstem_chennai"},{src:devun, link:"https://discord.gg/NQQUJ8V3qP"}],
