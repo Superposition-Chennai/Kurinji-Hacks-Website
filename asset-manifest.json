@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kurinji-Hacks-Website/static/css/main.c4b0357c.chunk.css",
-    "main.js": "/Kurinji-Hacks-Website/static/js/main.ae42bad2.chunk.js",
-    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.ae42bad2.chunk.js.map",
+    "main.js": "/Kurinji-Hacks-Website/static/js/main.33250d21.chunk.js",
+    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.33250d21.chunk.js.map",
     "runtime-main.js": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js",
     "runtime-main.js.map": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js.map",
     "static/js/2.108b582f.chunk.js": "/Kurinji-Hacks-Website/static/js/2.108b582f.chunk.js",
@@ -19,6 +19,7 @@
     "static/media/Raahee.a9114a19.png": "/Kurinji-Hacks-Website/static/media/Raahee.a9114a19.png",
     "static/media/Ryah.92eb9a11.jpg": "/Kurinji-Hacks-Website/static/media/Ryah.92eb9a11.jpg",
     "static/media/Terms of use.c2255556.pdf": "/Kurinji-Hacks-Website/static/media/Terms of use.c2255556.pdf",
+    "static/media/The @ Company.e30c9a77.png": "/Kurinji-Hacks-Website/static/media/The @ Company.e30c9a77.png",
     "static/media/axure.a30a393d.png": "/Kurinji-Hacks-Website/static/media/axure.a30a393d.png",
     "static/media/balloons.aa605987.svg": "/Kurinji-Hacks-Website/static/media/balloons.aa605987.svg",
     "static/media/balsamiq.3686b299.png": "/Kurinji-Hacks-Website/static/media/balsamiq.3686b299.png",
@@ -54,6 +55,6 @@
     "static/js/runtime-main.1d6ef6e4.js",
     "static/js/2.108b582f.chunk.js",
     "static/css/main.c4b0357c.chunk.css",
-    "static/js/main.ae42bad2.chunk.js"
+    "static/js/main.33250d21.chunk.js"
   ]
 }
