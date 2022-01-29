@@ -187,7 +187,7 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-school fifth fa-3x "></i>,
       type: "Best High School Hack",
-      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and a 10$ Amazon Gift Card"
+      content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and Sketch Licenses worth 99$"
     },
     {
       icon: <i class="fas fa-robot sixth fa-3x "></i>,
