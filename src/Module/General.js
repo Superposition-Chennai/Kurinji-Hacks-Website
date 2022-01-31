@@ -207,36 +207,29 @@ const Prizeinfo = [
       type: "Best Blockchain/Web 3.0 Hack with Koii",
       content: "Resources, Credits and Goodies from Koii valued at 100$ and an opportunity to work with them"
     },
-  ],
-  [ 
+  
     {
       icon: <i class="fas fa-signature third fa-3x "></i>,
       type: "Best Domain Name from Domain.com",
       content: "Each winning team member will receive a PowerSquare Qi wireless phone charger"
     },
-  ],
-  [ 
+ 
     {
       icon: <i class="fas fa-cloud fifth fa-3x "></i>,
       type: "Best Use of Linode Cloud",
       content: "Each winning team member will win a Raspberry Pi 4 Starter Kit."
-    },
-  ],
-  [ 
+    },],
+    [
     {
       icon: <i class="fas fa-signature sixth fa-3x "></i>,
       type: "Best Domain Name from GoDaddy Registry",
       content: "Win a Hack from Home Kit! Each Kit contains wireless earbuds, blue light glasses, selfie ring light and a pouch for easy transport"
     },
-  ],
-  [ 
     {
       icon: <i class="fas fa-envelope-open third fa-3x "></i>,
       type: "Most Creative Use of Twilio",
       content: "Each winning team member will win Twilio Swag Box GameGo Console"
     },
-  ],
-  [ 
     {
       icon: <i class="fas fa-globe-americas fifth fa-3x "></i>,
       type: "Best Web Monetization Project",
