@@ -26,6 +26,12 @@ import symbl from "./Assets/sponsorsLogos/symblai.svg";
 import sm from "./Assets/sponsorsLogos/stickermule.png";
 import atsign from "./Assets/sponsorsLogos/The @ Company.png";
 import sketch from "./Assets/sponsorsLogos/Sketch.png";
+import coil from "./Assets/sponsorsLogos/coil.png";
+import domain from "./Assets/sponsorsLogos/domain.svg";
+import github from "./Assets/sponsorsLogos/github.png";
+import gdr from "./Assets/sponsorsLogos/godaddyregistry.svg";
+import linode from "./Assets/sponsorsLogos/linode.png";
+import twilio from "./Assets/sponsorsLogos/twilio.png"
 
 import devun from "./Assets/partnerLogos/Developers United.png";
 import gischennai from "./Assets/partnerLogos/GiS Chennai.png";
@@ -180,26 +186,61 @@ const Prizeinfo = [
   ],
   [
     {
-      icon: <i class="fas fa-leaf third fa-3x "></i>,
+      icon: <i class="fas fa-leaf sixth fa-3x "></i>,
       type: "Best Sustainability Hack",
       content: "Each team member gets access to the Leading Learners Ed-tech Bundle and Expansion Pack, valued at 100$ each"
     },
     {
-      icon: <i class="fas fa-school fifth fa-3x "></i>,
+      icon: <i class="fas fa-school third fa-3x "></i>,
       type: "Best High School Hack",
       content: "Each team member gets 70% off on Coding Blocks Courses, Lifetime Upgrades of Taskade Unlimited, and Sketch Licenses worth 99$"
     },
     {
-      icon: <i class="fas fa-robot sixth fa-3x "></i>,
+      icon: <i class="fas fa-robot fifth fa-3x "></i>,
       type: "Best AI Hack",
       content: "Symbl.ai Track - Resources and Goodies from Symbl.ai, Voiceflow Track - 1 year of Voiceflow Professional License"
     },
   ],
   [ 
     {
-      icon: <i class="fas fa-project-diagram third fa-3x "></i>,
+      icon: <i class="fas fa-project-diagram sixth fa-3x "></i>,
       type: "Best Blockchain/Web 3.0 Hack with Koii",
       content: "Resources, Credits and Goodies from Koii valued at 100$ and an opportunity to work with them"
+    },
+  ],
+  [ 
+    {
+      icon: <i class="fas fa-signature third fa-3x "></i>,
+      type: "Best Domain Name from Domain.com",
+      content: "Each winning team member will receive a PowerSquare Qi wireless phone charger"
+    },
+  ],
+  [ 
+    {
+      icon: <i class="fas fa-cloud fifth fa-3x "></i>,
+      type: "Best Use of Linode Cloud",
+      content: "Each winning team member will win a Raspberry Pi 4 Starter Kit."
+    },
+  ],
+  [ 
+    {
+      icon: <i class="fas fa-signature sixth fa-3x "></i>,
+      type: "Best Domain Name from GoDaddy Registry",
+      content: "Win a Hack from Home Kit! Each Kit contains wireless earbuds, blue light glasses, selfie ring light and a pouch for easy transport"
+    },
+  ],
+  [ 
+    {
+      icon: <i class="fas fa-envelope-open third fa-3x "></i>,
+      type: "Most Creative Use of Twilio",
+      content: "Each winning team member will win Twilio Swag Box GameGo Console"
+    },
+  ],
+  [ 
+    {
+      icon: <i class="fas fa-globe-americas fifth fa-3x "></i>,
+      type: "Best Web Monetization Project",
+      content: "Each winning team member will win Portable Charger, Coil Pin & $60 Credit"
     },
   ]
 ];
@@ -262,7 +303,9 @@ const sponsorLogos = [
   [{src: framer, link:"https://www.framer.com/"},,{src: onep, link:"https://www.1password.com/"},{src: certopus, link:"https://certopus.com/"}],
   [{src: hackplus, link:"https://hackplus.io/"},{src: codingblocks, link:"https://codingblocks.com/"},{src: raahee, link:"https://raahee.in/"}],
   [{src: rosenfeld, link:"http://rosenfeldmedia.com/"},{src: hackclub, link:"https://hackclub.com/"},{src: slingshot, link:"https://slingshotahead.com/"}],
-  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"},{src:atsign, link:"https://atsign.com/"},{src:sketch, link:"https://www.sketch.com/"}]
+  [{src: sm, link:"https://hackp.ac/mlh-stickermule-hackathons"},{src:atsign, link:"https://atsign.com/"},{src:sketch, link:"https://www.sketch.com/"}],
+  [{src: github, link:"https://github.com"}, {src:coil, link:"https://hackp.ac/coil-developer"}, {src: domain, link:"https://www.domain.com/mlh"}],
+  [{src:gdr, link:"https://hackp.ac/GoDaddyRegistry"}, {src:twilio, link:"https://www.twilio.com/try-twilio?promo=mlh-twilio"}, {src:linode, link:"https://hackp.ac/linode"}]
 ];
 const partnerLogos=[
   [{src:ct, link:"https://commandtech.carrd.co/"},{src:gischennai, link:"https://linktr.ee/girlsinstem_chennai"},{src:devun, link:"https://discord.gg/NQQUJ8V3qP"}],
