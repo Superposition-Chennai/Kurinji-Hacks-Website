@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kurinji-Hacks-Website/static/css/main.c4b0357c.chunk.css",
-    "main.js": "/Kurinji-Hacks-Website/static/js/main.2eef5e4c.chunk.js",
-    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.2eef5e4c.chunk.js.map",
+    "main.js": "/Kurinji-Hacks-Website/static/js/main.e9befec3.chunk.js",
+    "main.js.map": "/Kurinji-Hacks-Website/static/js/main.e9befec3.chunk.js.map",
     "runtime-main.js": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js",
     "runtime-main.js.map": "/Kurinji-Hacks-Website/static/js/runtime-main.1d6ef6e4.js.map",
     "static/js/2.108b582f.chunk.js": "/Kurinji-Hacks-Website/static/js/2.108b582f.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/Developers United.1303c966.png": "/Kurinji-Hacks-Website/static/media/Developers United.1303c966.png",
     "static/media/GiS Chennai.1e602adc.png": "/Kurinji-Hacks-Website/static/media/GiS Chennai.1e602adc.png",
     "static/media/Kurinji-Hacks logo.bbc37a3d.png": "/Kurinji-Hacks-Website/static/media/Kurinji-Hacks logo.bbc37a3d.png",
+    "static/media/Mascot (1).af1fbc47.png": "/Kurinji-Hacks-Website/static/media/Mascot (1).af1fbc47.png",
     "static/media/Privacy policy.9854a808.pdf": "/Kurinji-Hacks-Website/static/media/Privacy policy.9854a808.pdf",
     "static/media/Raahee.a9114a19.png": "/Kurinji-Hacks-Website/static/media/Raahee.a9114a19.png",
     "static/media/Ryah.92eb9a11.jpg": "/Kurinji-Hacks-Website/static/media/Ryah.92eb9a11.jpg",
@@ -42,7 +43,6 @@
     "static/media/interview-cake.dc92ee70.png": "/Kurinji-Hacks-Website/static/media/interview-cake.dc92ee70.png",
     "static/media/ll.58e8a9e8.png": "/Kurinji-Hacks-Website/static/media/ll.58e8a9e8.png",
     "static/media/loader.098e31c4.gif": "/Kurinji-Hacks-Website/static/media/loader.098e31c4.gif",
-    "static/media/logo new 1.d829277d.png": "/Kurinji-Hacks-Website/static/media/logo new 1.d829277d.png",
     "static/media/lyin.ce4bedbc.jpg": "/Kurinji-Hacks-Website/static/media/lyin.ce4bedbc.jpg",
     "static/media/me.e7821056.png": "/Kurinji-Hacks-Website/static/media/me.e7821056.png",
     "static/media/michiSpotlight.b7f27959.png": "/Kurinji-Hacks-Website/static/media/michiSpotlight.b7f27959.png",
@@ -61,6 +61,6 @@
     "static/js/runtime-main.1d6ef6e4.js",
     "static/js/2.108b582f.chunk.js",
     "static/css/main.c4b0357c.chunk.css",
-    "static/js/main.2eef5e4c.chunk.js"
+    "static/js/main.e9befec3.chunk.js"
   ]
 }
