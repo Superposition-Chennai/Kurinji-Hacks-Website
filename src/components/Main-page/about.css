@@ -35,8 +35,8 @@ h1 {
   position: relative;
   transition: 0.3s;
   top:0px;
-  /* margin-left: 0; */
-  margin-right: 20vw;
+  margin-left: 5vw !important;
+  align-items: center;
   transition: top 0.2s linear;
 }
 .d-image img:hover {

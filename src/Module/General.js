@@ -49,7 +49,7 @@ import lyin from "./Assets/teami/lyin.jpg";
  * or you can provide a cloud link in src also
  */
 
-import logo from "./Assets/Mascot (1).png";
+import logo from "./Assets/Mascot (2).png";
 
 const TOP_SECTION = {
   TITLE: "Kurinji Hacks",
