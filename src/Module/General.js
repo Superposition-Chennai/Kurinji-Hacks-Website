@@ -198,7 +198,7 @@ const Prizeinfo = [
     {
       icon: <i class="fas fa-robot fifth fa-3x "></i>,
       type: "Best AI Hack",
-      content: "Symbl.ai Track - Resources and Goodies from Symbl.ai, Voiceflow Track - 1 year of Voiceflow Professional License"
+      content: "Symbl.ai Track - Resources and Goodies from Symbl.ai worth 100$, Voiceflow Track - 1 year of Voiceflow Professional License"
     },
   ],
   [ 
